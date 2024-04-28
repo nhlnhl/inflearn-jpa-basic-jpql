@@ -14,13 +14,16 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Member member = new Member();
-            member.setUsername("member1");
-            member.setAge(10);
-            em.persist(member);
+            for (int i = 0; i < 100; i++) {
+                Member member = new Member();
+                member.setUsername("member" + i);
+                member.setAge(i);
+                em.persist(member);
+            }
 
-            List<Member> resultList = em.createQuery("select m from Member m where m.username = :username", Member.class)
-                    .setParameter("username", "member1")
+            List<Member> resultList = em.createQuery("select m from Member m order by m.age desc", Member.class)
+                    .setFirstResult(1)
+                    .setMaxResults(10)
                     .getResultList();
 
             for (Member member1 : resultList) {
