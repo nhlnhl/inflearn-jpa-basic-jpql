@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03711651-31a5-4b81-b4fb-36c45f3da85a" name="Changes" comment="조인">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/MemberType.java" afterDir="false" />
+    <list default="true" id="03711651-31a5-4b81-b4fb-36c45f3da85a" name="Changes" comment="JPQL 타입 표현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714223267190</updated>
       <workItem from="1714223268244" duration="2789000" />
-      <workItem from="1714266897144" duration="2833000" />
+      <workItem from="1714266897144" duration="5058000" />
     </task>
     <task id="LOCAL-00001" summary="프로젝트 생성">
       <option name="closed" value="true" />
@@ -137,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714270915460</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JPQL 타입 표현">
+      <option name="closed" value="true" />
+      <created>1714280538169</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714280538169</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +154,7 @@
     <MESSAGE value="기본 문법과 프로젝션(SELECT)" />
     <MESSAGE value="페이징" />
     <MESSAGE value="조인" />
-    <option name="LAST_COMMIT_MESSAGE" value="조인" />
+    <MESSAGE value="JPQL 타입 표현" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPQL 타입 표현" />
   </component>
 </project>
